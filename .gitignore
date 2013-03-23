@@ -1,0 +1,5 @@
+.DS_STORE
+.vagrant
+composer.phar
+src/index.php
+src/loader.php
