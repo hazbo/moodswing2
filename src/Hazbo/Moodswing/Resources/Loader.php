@@ -1,8 +1,9 @@
 <?php namespace Hazbo\Moodswing;
 
 /**
- * A SIMPLE / SMALL DEPENDENCY INJECTION
- * CONTAINER FOR PHP 5.3.0 + 5.4.0
+ * MOODSWING 2
+ * A PROJECT THAT TURNS MOODS
+ * TO COLOURS
  * 
  * FEEL FREE TO USE / MODIFY ANY OF THIS
  * CODE FOR YOUR OWN PROJECTS
@@ -137,5 +138,3 @@ class Resources_Loader
 		return $this->parseFileContents($this->defaultDataPath);
 	}
 }
-
-?>
