@@ -6,9 +6,9 @@ return either the name of a colour, as a string, or the hex for that
 colour, that psychologically best represents that mood. Pretty straight
 forward.
 
-  PSR-0
-  PSR-1
-  PSR-2
+  - PSR-0
+  - PSR-1
+  - PSR-2
 
 ## Usage
 
