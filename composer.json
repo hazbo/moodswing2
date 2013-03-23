@@ -1,0 +1,12 @@
+{
+    "name": "hazbo/moodswing",
+    "type": "library",
+    "description": "Turns moods into colours",
+    "keywords": ["hazbo","mood","moodswing", "colour", "colours", "color", "colors", "psr"],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "Hazbo\\Moodswing": "src" }
+    }
+}
