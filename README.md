@@ -24,9 +24,9 @@ added to the JSON file, the example above will return something like:
 
 	array(2) {
 	  ["colour"]=>
-	  string(4) "pink"
+	  string(4) "COLOUR"
 	  ["hex"]=>
-	  string(7) "#32fa1b"
+	  string(7) "HEX"
 	}
 
 If we just need the hex, or the colour, we could
@@ -47,6 +47,10 @@ And it will return a string for us. If you'd like to only use a few select moods
 Doing this will only allow you to use those three moods for whatever it is you want to do. Want to get all moods?
 
     $moodswing->getAllMoods();
+
+### Todo
+
+  - Need to actually use real data in the JSON file!
 
 ### Tests
 Ant
