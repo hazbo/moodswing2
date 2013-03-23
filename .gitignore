@@ -1,5 +1,7 @@
 .DS_STORE
 .vagrant
+Vagrantfile
 composer.phar
 src/index.php
 src/loader.php
+provision/
