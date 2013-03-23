@@ -12,6 +12,17 @@ forward.
   - PSR-1
   - PSR-2
 
+## Installation
+Add `hazbo/moodswing` to your composer.json file
+
+    {
+        "require" : {
+            "hazbo/moodswing" : "dev-master"
+        }
+    }
+Then run: `php composer.phar install`
+(NOTE: An update may be required first)
+
 ## Usage
 
 	use Hazbo\Moodswing;
