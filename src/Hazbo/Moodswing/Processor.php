@@ -1,4 +1,4 @@
-<?php namespace Hazbo\Moodswing;
+<?php
 
 /**
  * MOODSWING 2
@@ -16,15 +16,18 @@
  * @license The MIT License (MIT)
 */
 
+namespace Hazbo\Moodswing;
+
 class Processor implements ProcessorInterface
 {
 	/**
-	 * ONLY NEED TO STORE RESOURCE
-	 * LOADER IN HERE, FOR NOW
+	 * RESOURCE LOADER AND REGISTRY
+	 * @var Object
 	 * @var Object
 	 */
-	private $registry;
-	private $resourcesLoader;
+	private
+		$registry,
+		$resourcesLoader;
 
 	/**
 	 * - constructor

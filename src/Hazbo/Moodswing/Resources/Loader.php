@@ -1,4 +1,4 @@
-<?php namespace Hazbo\Moodswing;
+<?php
 
 /**
  * MOODSWING 2
@@ -16,6 +16,8 @@
  * @license The MIT License (MIT)
 */
 
+namespace Hazbo\Moodswing;
+
 class Resources_Loader
 {
 	/**
@@ -25,8 +27,9 @@ class Resources_Loader
 	 * @var String
 	 * @var Array
 	 */
-	private $defaultDataPath;
-	private $moods;
+	private
+		$defaultDataPath,
+		$moods;
 
 	private function parseFileContents($dataFilePath)
 	{

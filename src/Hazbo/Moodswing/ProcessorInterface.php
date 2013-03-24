@@ -1,4 +1,4 @@
-<?php namespace Hazbo\Moodswing;
+<?php
 
 /**
  * MOODSWING 2
@@ -15,6 +15,8 @@
  * @version 1.0-DEV
  * @license The MIT License (MIT)
 */
+
+namespace Hazbo\Moodswing;
 
 interface ProcessorInterface
 {
