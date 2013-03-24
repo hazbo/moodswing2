@@ -1,15 +1,15 @@
 {
 	"accepted" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
+		"colour" : "blue",
+		"hex" 	 : "#1B4ECF"
 	},
 	"accomplished" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"	
+		"colour" : "blue",
+		"hex" 	 : "#009bba"	
 	},
 	"aggravated" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
+		"colour" : "orange",
+		"hex" 	 : "#e38800"
 	},
 	"alone" : {
 		"colour" : "COLOUR",
