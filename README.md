@@ -24,7 +24,7 @@ Add `hazbo/moodswing` to your composer.json file
         }
     }
 Then run: `php composer.phar install`
-(NOTE: An update may be required first)
+Or `update`
 
 ## Usage
 
