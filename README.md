@@ -62,6 +62,16 @@ Doing this will only allow you to use those three moods for whatever it is you w
 
     $moodswing->getAllMoods();
 
+You can enable logging like so:
+
+    $moodswing->enableLogging();
+
+To change the logger path:
+
+    $moodswing->setLoggerPath('path/to/moodswing.log');
+
+By default this is done for you in `vendor/hazbo/moodswing/logs/moodswing.log`
+
 ### Todo
 
   - Need to actually use real data in the JSON file!
