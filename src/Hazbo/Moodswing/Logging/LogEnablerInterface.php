@@ -18,7 +18,7 @@
 
 namespace Hazbo\Moodswing;
 
-interface LogEnablerInterface
+interface Logging_LogEnablerInterface
 {
     public function enableLogging();
     public function setLoggerPath($newLoggerPath);

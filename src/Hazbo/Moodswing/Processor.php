@@ -21,7 +21,7 @@ namespace Hazbo\Moodswing;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-class Processor implements ProcessorInterface, LogEnablerInterface
+class Processor implements ProcessorInterface, Logging_LogEnablerInterface
 {
     /**
      * RESOURCE LOADER AND REGISTRY
@@ -111,7 +111,7 @@ class Processor implements ProcessorInterface, LogEnablerInterface
      * ENABLES THE LOGGER
      * @return null
      */
-    public function enableLogger()
+    public function enableLogging()
     {
         $this->logger     = new Logger('moodswing');
         $this->loggerPath = __DIR__ . '/../../../logs/moodswing.log';
