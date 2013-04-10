@@ -111,7 +111,7 @@ class Processor implements ProcessorInterface, Logging_LogEnablerInterface
      * ENABLES THE LOGGER
      * @return null
      */
-    public function enableLogging()
+    public function enableAutomaticLogging()
     {
         $this->logger     = new Logger('moodswing');
         $this->loggerPath = __DIR__ . '/../../../logs/moodswing.log';
