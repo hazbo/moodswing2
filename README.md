@@ -13,6 +13,7 @@ forward.
   - PSR-0
   - PSR-1
   - PSR-2
+  - PSR-3
 
 ## Installation
 Add `hazbo/moodswing` to your composer.json file
