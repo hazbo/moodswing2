@@ -4,7 +4,8 @@
     "description": "Turns moods into colours",
     "keywords": ["hazbo","mood","moodswing", "colour", "colours", "color", "colors", "psr"],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "monolog/monolog": "1.4.*@dev"
     },
     "autoload": {
         "psr-0": { "Hazbo\\Moodswing": "src" }
