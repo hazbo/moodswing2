@@ -16,6 +16,7 @@
  * @license The MIT License (MIT)
 */
 
+require_once(__DIR__ . '/../vendor/autoload.php');
 require_once(__DIR__ . '/../src/Hazbo/Moodswing/ProcessorInterface.php');
 require_once(__DIR__ . '/../src/Hazbo/Moodswing/Processor.php');
 require_once(__DIR__ . '/../src/Hazbo/Moodswing/Registry/Moods.php');
