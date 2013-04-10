@@ -21,7 +21,7 @@ namespace Hazbo\Moodswing;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-class Processor implements ProcessorInterface
+class Processor implements ProcessorInterface, LogEnablerInterface
 {
     /**
      * RESOURCE LOADER AND REGISTRY
