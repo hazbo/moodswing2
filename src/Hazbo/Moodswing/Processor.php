@@ -18,16 +18,23 @@
 
 namespace Hazbo\Moodswing;
 
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
 class Processor implements ProcessorInterface
 {
     /**
      * RESOURCE LOADER AND REGISTRY
      * @var Object
      * @var Object
+     * @var Object
+     * @var String
      */
     private
         $registry,
-        $resourcesLoader;
+        $resourcesLoader,
+        $logger,
+        $loggerPath;
 
     /**
      * - constructor
@@ -39,6 +46,10 @@ class Processor implements ProcessorInterface
     {
         $this->registry        = new Registry_Moods();
         $this->resourcesLoader = new Resources_Loader();
+        $this->logger          = new Logger('moodswing');
+        $this->loggerPath      = __DIR__ . '/../../../logs/moodswing.log';
+
+        $this->logger->pushHandler(new StreamHandler($this->loggerPath, Logger::INFO));
     }
 
     /**
@@ -52,6 +63,7 @@ class Processor implements ProcessorInterface
      */
     public function getColourFor($moodName, $format = NULL)
     {
+        $this->logger->addInfo('Getting colour for ' . $moodName);
         return $this->resourcesLoader->loadDefaultData($moodName, $format, $this->registry);
     }
 
@@ -76,6 +88,7 @@ class Processor implements ProcessorInterface
      */
     public function getAllMoods()
     {
+        $this->logger->addInfo('Fetching all moods');
         $moods = $this->registry->getMoods();
         if (!empty($moods)) {
             return $moods;
@@ -91,6 +104,18 @@ class Processor implements ProcessorInterface
      */
     public function register($moods = array())
     {
+        $this->logger->addInfo('Registering moods: ' . implode(', ', $moods));
         return $this->registry->register($moods);
+    }
+
+    /**
+     * - setLoggerPath
+     * SETS THE PATH FOR THE LOGGER
+     * @param String
+     * @return Bool
+     */
+    public function setLoggerPath($newLoggerPath)
+    {
+        return $this->loggerPath = $newLoggerPath;
     }
 }
