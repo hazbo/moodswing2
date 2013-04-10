@@ -46,10 +46,7 @@ class Processor implements ProcessorInterface
     {
         $this->registry        = new Registry_Moods();
         $this->resourcesLoader = new Resources_Loader();
-        $this->logger          = new Logger('moodswing');
-        $this->loggerPath      = __DIR__ . '/../../../logs/moodswing.log';
-
-        $this->logger->pushHandler(new StreamHandler($this->loggerPath, Logger::INFO));
+        $this->logger          = new Logging_NullLogger();
     }
 
     /**
@@ -63,7 +60,7 @@ class Processor implements ProcessorInterface
      */
     public function getColourFor($moodName, $format = NULL)
     {
-        $this->logger->addInfo('Getting colour for ' . $moodName);
+        $this->logger->info('Getting colour for ' . $moodName);
         return $this->resourcesLoader->loadDefaultData($moodName, $format, $this->registry);
     }
 
@@ -88,7 +85,7 @@ class Processor implements ProcessorInterface
      */
     public function getAllMoods()
     {
-        $this->logger->addInfo('Fetching all moods');
+        $this->logger->info('Fetching all moods');
         $moods = $this->registry->getMoods();
         if (!empty($moods)) {
             return $moods;
@@ -104,8 +101,22 @@ class Processor implements ProcessorInterface
      */
     public function register($moods = array())
     {
-        $this->logger->addInfo('Registering moods: ' . implode(', ', $moods));
+        $this->logger->info('Registering moods: ' . implode(', ', $moods));
         return $this->registry->register($moods);
+    }
+
+
+    /**
+     * - enableLogger
+     * ENABLES THE LOGGER
+     * @return null
+     */
+    public function enableLogger()
+    {
+        $this->logger     = new Logger('moodswing');
+        $this->loggerPath = __DIR__ . '/../../../logs/moodswing.log';
+
+        $this->logger->pushHandler(new StreamHandler($this->loggerPath, Logger::INFO));
     }
 
     /**
