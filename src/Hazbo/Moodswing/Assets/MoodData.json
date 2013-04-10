@@ -1,494 +1,494 @@
 {
-	"accepted" : {
-		"colour" : "blue",
-		"hex" 	 : "#1B4ECF"
-	},
-	"accomplished" : {
-		"colour" : "blue",
-		"hex" 	 : "#009bba"	
-	},
-	"aggravated" : {
-		"colour" : "orange",
-		"hex" 	 : "#e38800"
-	},
-	"alone" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"amused" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"angry" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"annoyed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"anxious" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"apathetic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"ashamed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"awake" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"bewildered" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"bitchy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"bittersweet" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"blah" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"blank" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"blissful" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"bored" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"bouncy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"calm" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"cheerful" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"chipper" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"cold" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"complacent" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"confused" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"content" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"cranky" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"crappy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"crazy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"crushed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"curious" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"cynical" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"dark" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"depressed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"determined" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"devious" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"dirty" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"disappointed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"discontent" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"ditzy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"dorky" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"drained" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"drunk" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"ecstatic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"energetic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"enraged" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"enthralled" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"envious" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"exanimate" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"excited" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"exhausted" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"flirty" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"frustrated" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"full" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"geeky" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"giddy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"giggly" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"gloomy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"good" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"grateful" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"groggy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"grumpy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"guilty" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"happy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"high" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"hopeful" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"hot" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"hungry" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"hyper" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"impressed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"indescribable" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"indifferent" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"infuriated" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"irate" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"irritated" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"jealous" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"jubilant" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"lazy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"lethargic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"listless" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"lonely" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"loved" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"mad" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"melancholy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"mellow" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"mischievous" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"moody" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"morose" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"naughty" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"nerdy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"not_specified" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"numb" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"okay" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"optimistic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"peaceful" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"pessimistic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"pissed_off" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"pleased" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"predatory" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"quixotic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"recumbent" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"refreshed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"rejected" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"rejuvenated" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"relaxed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"relieved" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"restless" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"rushed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"sad" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"satisfied" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"shocked" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"sick" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"silly" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"sleepy" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"smart" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"stressed" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"surprised" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"sympathetic" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"thankful" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"tired" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"touched" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"uncomfortable" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	},
-	"weird" : {
-		"colour" : "COLOUR",
-		"hex" 	 : "HEX"
-	}
+    "accepted" : {
+        "colour" : "blue",
+        "hex"    : "#1B4ECF"
+    },
+    "accomplished" : {
+        "colour" : "blue",
+        "hex"    : "#009bba"    
+    },
+    "aggravated" : {
+        "colour" : "orange",
+        "hex"    : "#e38800"
+    },
+    "alone" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "amused" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "angry" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "annoyed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "anxious" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "apathetic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "ashamed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "awake" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "bewildered" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "bitchy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "bittersweet" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "blah" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "blank" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "blissful" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "bored" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "bouncy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "calm" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "cheerful" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "chipper" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "cold" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "complacent" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "confused" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "content" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "cranky" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "crappy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "crazy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "crushed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "curious" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "cynical" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "dark" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "depressed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "determined" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "devious" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "dirty" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "disappointed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "discontent" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "ditzy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "dorky" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "drained" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "drunk" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "ecstatic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "energetic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "enraged" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "enthralled" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "envious" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "exanimate" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "excited" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "exhausted" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "flirty" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "frustrated" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "full" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "geeky" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "giddy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "giggly" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "gloomy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "good" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "grateful" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "groggy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "grumpy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "guilty" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "happy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "high" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "hopeful" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "hot" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "hungry" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "hyper" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "impressed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "indescribable" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "indifferent" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "infuriated" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "irate" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "irritated" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "jealous" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "jubilant" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "lazy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "lethargic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "listless" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "lonely" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "loved" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "mad" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "melancholy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "mellow" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "mischievous" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "moody" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "morose" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "naughty" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "nerdy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "not_specified" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "numb" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "okay" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "optimistic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "peaceful" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "pessimistic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "pissed_off" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "pleased" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "predatory" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "quixotic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "recumbent" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "refreshed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "rejected" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "rejuvenated" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "relaxed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "relieved" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "restless" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "rushed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "sad" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "satisfied" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "shocked" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "sick" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "silly" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "sleepy" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "smart" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "stressed" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "surprised" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "sympathetic" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "thankful" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "tired" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "touched" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "uncomfortable" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    },
+    "weird" : {
+        "colour" : "COLOUR",
+        "hex"    : "HEX"
+    }
 }

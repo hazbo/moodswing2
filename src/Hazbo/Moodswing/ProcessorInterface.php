@@ -20,7 +20,7 @@ namespace Hazbo\Moodswing;
 
 interface ProcessorInterface
 {
-	public function getColourFor($moodName, $format);
-	public function getAllMoods();
-	public function register($moods);
+    public function getColourFor($moodName, $format);
+    public function getAllMoods();
+    public function register($moods);
 }
