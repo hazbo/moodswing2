@@ -18,6 +18,8 @@
 
 namespace Hazbo\Moodswing;
 
+use Psr\Log\LoggerInterface;
+
 class Registry_Moods
 {
     /**
