@@ -25,12 +25,13 @@ require_once(__DIR__ . '/../src/Hazbo/Moodswing/ProcessorInterface.php');
 require_once(__DIR__ . '/../src/Hazbo/Moodswing/Processor.php');
 require_once(__DIR__ . '/../src/Hazbo/Moodswing/Registry/Moods.php');
 require_once(__DIR__ . '/../src/Hazbo/Moodswing/Resources/Loader.php');
+require_once(__DIR__ . '/../src/Hazbo/Moodswing/Logging/NullLogger.php');
 
 use Hazbo\Moodswing;
 
 class MoodswingTest extends PHPUnit_Framework_TestCase
 {
-	private $community;
+	private $moodswing;
 
 	/**
 	 * - setUp
@@ -78,7 +79,7 @@ class MoodswingTest extends PHPUnit_Framework_TestCase
 	}
 
 	/**
-	 * @covers Hazbo\Moodswing\Processor::register
+	 * @covers Hazbo\Moodswing\Processor::getColourFor
 	 */
 	public function testGetColourForAfterRegister()
 	{

@@ -104,7 +104,7 @@ class Processor implements ProcessorInterface
     /**
      * - setLogger
      * SETS THE LOGGER
-     * @param String
+     * @param LoggerInterface Object
      * @return Bool
      */
     public function setLogger(LoggerInterface $newLogger)
