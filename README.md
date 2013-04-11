@@ -62,15 +62,29 @@ Doing this will only allow you to use those three moods for whatever it is you w
 
     $moodswing->getAllMoods();
 
-You can enable logging like so:
+### Logging
 
-    $moodswing->enableLogging();
+Moodswing implements the PSR-3 `LoggerInterface`. If you'd like to enable logging, you can do so like this:
 
-To change the logger path:
+    $moodswing->setLogger($logger);
 
-    $moodswing->setLoggerPath('path/to/moodswing.log');
+A full worknig example, using Monolog, could look like this:
 
-By default this is done for you in `vendor/hazbo/moodswing/logs/moodswing.log`
+    <?php
+
+    require_once('../vendor/autoload.php');
+
+    use Monolog\Logger;
+    use Monolog\Handler\StreamHandler;
+    use Hazbo\Moodswing\Processor as Moodswing;
+
+    $logger = new Logger('moodswing');
+    $logger->pushHandler(new StreamHandler(__DIR__ . '/moodswing.log', Logger::INFO));
+
+    $moodswing = new Moodswing();
+    $moodswing->setLogger($logger);
+
+    $moodswing->getColourFor('accepted', 'hex');
 
 ### Todo
 
