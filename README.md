@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/hazbo/moodswing2.png)](https://travis-ci.org/hazbo/moodswing2)
 
-[![endorse](https://api.coderwall.com/hazbo/endorsecount.png)](https://coderwall.com/hazbo)
-
 The general idea behind moodswing is to simply allow the developer
 to 'pass' through a mood as a string i.e. `happy` and for it to
 return either the name of a colour, as a string, or the hex for that
