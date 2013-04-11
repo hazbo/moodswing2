@@ -22,7 +22,7 @@ Add `hazbo/moodswing` to your composer.json file
         }
     }
 Then run: `php composer.phar install`
-Or `update`
+or `update`
 
 ## Usage
 
@@ -44,11 +44,11 @@ added to the JSON file, the example above will return something like:
 If we just need the hex, or the colour, we could
 do something like this:
 
-	$moodswing->getColourFor('happy', 'colour');
+	$moodswing->getColourFor('happy', Moodswing::COLOUR);
 
 Or:
 
-    $moodswing->getColourFor('happy', 'hex');
+    $moodswing->getColourFor('happy', Moodswing::HEX);
 
 And it will return a string for us. If you'd like to only use a few select moods for all functionality, you can use the register.
 

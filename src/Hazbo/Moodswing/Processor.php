@@ -23,7 +23,19 @@ use Psr\Log\LoggerInterface;
 class Processor implements ProcessorInterface
 {
     /**
-     * RESOURCE LOADER AND REGISTRY
+     * COLOUR AND HEX CONSTANTS
+     * @var String
+     * @var String
+     * @var String
+     */
+    const
+        COLOUR = 'colour',
+        COLOR  = 'colour',
+        HEX    = 'hex';
+
+    /**
+     * RESOURCE LOADER, REGISTRY
+     * AND LOGGING PROPERTIES
      * @var Object
      * @var Object
      * @var Object
