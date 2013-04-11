@@ -86,10 +86,7 @@ class Processor implements ProcessorInterface
     {
         $this->logger->info('Fetching all moods');
         $moods = $this->registry->getMoods();
-        if (!empty($moods)) {
-            return $moods;
-        }
-        return $this->resourcesLoader->loadAllData();
+        return !empty($moods) ? $moods : $this->resourcesLoader->loadAllData();
     }
 
     /**

@@ -63,15 +63,14 @@ class Resources_Loader
     private function checkMoodExists($moodName, $format)
     {
         $moodName = strtolower($moodName);
-
-        $moods = $this->parseFileContents($this->defaultDataPath);
+        $moods    = $this->parseFileContents($this->defaultDataPath);
         if (isset($moods[$moodName])) {
             if (!is_null($format)) {
                 return $moods[$moodName][$format];
             }
             return $moods[$moodName];
         }
-        throw new \Exception('Mood does not exist in directory');
+        $this->logger->error('Mood does not exist in directory');
         return false;
     }
 
@@ -127,7 +126,7 @@ class Resources_Loader
             if (in_array($moodName, $this->moods)) {
                 return $this->checkMoodExists($moodName, $format);
             } else {
-                throw new \Exception('Using registry; Mood does not exist in registry');
+                $this->logger->error('Using registry; Mood does not exist in registry');
                 return false;
             }
         }
