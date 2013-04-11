@@ -24,7 +24,9 @@ class Registry_Moods
      * STORES MOODS AS AN ARRAY
      * @var Array
      */
-    private $moods;
+    private
+        $moods,
+        $logger;
 
     /**
      * - constructor
@@ -32,9 +34,10 @@ class Registry_Moods
      * AN EMPTY ARRAY
      * @return null
      */
-    public function __construct()
+    public function __construct(LoggerInterface $logger)
     {
-        $this->moods = array();
+        $this->moods  = array();
+        $this->logger = $logger;
     }
 
     /**

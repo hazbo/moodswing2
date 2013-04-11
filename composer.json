@@ -5,7 +5,7 @@
     "keywords": ["hazbo","mood","moodswing", "colour", "colours", "color", "colors", "psr"],
     "require": {
         "php": ">=5.3.0",
-        "monolog/monolog": "1.4.*@dev"
+        "psr/log": "dev-master"
     },
     "autoload": {
         "psr-0": { "Hazbo\\Moodswing": "src" }

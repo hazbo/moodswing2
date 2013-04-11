@@ -29,7 +29,8 @@ class Resources_Loader
      */
     private
         $defaultDataPath,
-        $moods;
+        $moods,
+        $logger;
 
     private function parseFileContents($dataFilePath)
     {
@@ -78,9 +79,10 @@ class Resources_Loader
      * PATH
      * @return null
      */
-    public function __construct()
+    public function __construct(LoggerInterface $logger)
     {
         $this->defaultDataPath = __DIR__ . '/../Assets/MoodData.json';
+        $this->logger          = $logger;
     }
 
     /**
