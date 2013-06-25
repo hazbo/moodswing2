@@ -1,6 +1,7 @@
 # Moodswing 2
 
 [![Build Status](https://travis-ci.org/hazbo/moodswing2.png)](https://travis-ci.org/hazbo/moodswing2)
+[![Total Downloads](https://poser.pugx.org/hazbo/moodswing/downloads.png)](https://packagist.org/packages/hazbo/moodswing)
 
 The general idea behind moodswing is to simply allow the developer
 to 'pass' through a mood as a string i.e. `happy` and for it to
